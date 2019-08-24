@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar cardButtons = document.getElementsByClassName(\"card-button\");\r\nArray.from(cardButtons).forEach(function (cardButton) {\r\n    cardButton.addEventListener(\"click\", function () {\r\n        var cardCarousel = cardButton.parentElement.querySelector(\".card-carousel\");\r\n        if (cardCarousel.classList.contains(\"hidden\")) {\r\n            cardCarousel.classList.remove(\"hidden\");\r\n        }\r\n        else {\r\n            cardCarousel.classList.add(\"hidden\");\r\n        }\r\n    });\r\n});\r\n\n\n//# sourceURL=webpack:///./src/js/index.ts?");
+eval("\r\nconst cardButtons = document.getElementsByClassName(\"card-button\");\r\nArray.from(cardButtons).forEach(cardButton => {\r\n    cardButton.addEventListener(\"click\", () => {\r\n        const cardCarousel = cardButton.parentElement.querySelector(\".card-carousel\");\r\n        if (cardCarousel.classList.contains(\"hidden\")) {\r\n            cardCarousel.classList.remove(\"hidden\");\r\n        }\r\n        else {\r\n            cardCarousel.classList.add(\"hidden\");\r\n        }\r\n    });\r\n});\r\n\n\n//# sourceURL=webpack:///./src/js/index.ts?");
 
 /***/ })
 
