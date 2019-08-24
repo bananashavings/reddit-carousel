@@ -1,8 +1,12 @@
 {
-  "name": "copycat",
+  "name": "reddit-carousel",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An attempt at recreating /u/_Just_Passing_By_man's carousel",
+  "homepage": "https://github.com/bananashavings/reddit-carousel",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/bananashavings/reddit-carousel.git"
+  },
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch"
