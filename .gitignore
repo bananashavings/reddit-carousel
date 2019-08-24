@@ -39,8 +39,14 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
+# TypeScript config
+tsconfig.json
+
 # Optional npm cache directory
 .npm
+
+# Npm package lock
+package-lock.json
 
 # Optional eslint cache
 .eslintcache
@@ -59,3 +65,6 @@ typings/
 
 # next.js build output
 .next
+
+# JetBrains
+.idea
